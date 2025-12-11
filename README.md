@@ -70,5 +70,10 @@ Com base na impedância de 6 Ohms e frequência de corte de 2000 Hz, o software 
 1. **Valor Ideal Calculado**: $0.6752 \ \text{mH}$
 2. **Valor Comercial Selecionado**: $0.68 \ \text{mH}$
 3. **Erro Aproximado**: $+0.7\$%
+### Capacitor(C)
+1. **Valor Ideal Calculado**: $9.378 \ \mu\text{F}$
+2. **Valor Comercial Selecionado**: $10.0 \ \mu\text{F}$
+3. **Erro Aproximado**: $+6.6\$%
+
 
 
