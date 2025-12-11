@@ -77,10 +77,13 @@ Com base na impedância de 6 Ohms e frequência de corte de 2000 Hz, o software 
 
 ## 7. Análise Crítica
 A discretização dos componentes introduz alterações no comportamento do filtro:
-1. Indutor: A diferença entre $0.675 \text{mH}$ (ideal) e $0.68 \text{mH}$ (real) é ínfima (< 1%). O impacto desta escolha é desprezível.
-2. Capacitor: A diferença entre $9.37 \mu\text{F}$ (ideal) e $10 \mu\text{F}$ (real) é mais perceptível (~6.6%).
-   Impacto Prático: Como o capacitor real é maior que o ideal, e a frequência de corte é inversamente proporcional a $\sqrt{LC}$, a frequência de corte real do filtro deslocou-se ligeiramente para baixo (menor que 2000 Hz).
-   Audibilidade: Em um ambiente de áudio real, um desvio de 6% na frequência de corte (caindo para aproximadamente 1.9 kHz) dificilmente seria audível para o ouvido humano destreinado, mantendo a integridade do sistema. A transição continua suave, sem picos de ressonância perigosos, pois os valores estão próximos o suficiente para manter o fator de qualidade ($Q$) próximo de 0.707.
+### Indutor 
+1. A diferença entre $0.675 \text{mH}$ (ideal) e $0.68 \text{mH}$ (real) é ínfima (< 1%). O impacto desta escolha é desprezível.
+### Capacitor
+1. A diferença entre $9.37 \mu\text{F}$ (ideal) e $10 \mu\text{F}$ (real) é mais perceptível (~6.6%).
+2. Impacto Prático: Como o capacitor real é maior que o ideal, e a frequência de corte é inversamente proporcional a $\sqrt{LC}$, a frequência de corte real do filtro deslocou-se ligeiramente para baixo (menor que 2000 Hz).
+3. Audibilidade: Em um ambiente de áudio real, um desvio de 6% na frequência de corte (caindo para aproximadamente 1.9 kHz) dificilmente seria audível para o ouvido humano destreinado, mantendo a integridade do sistema. A transição continua suave, sem picos de ressonância perigosos, pois os valores estão próximos o suficiente para manter o fator de qualidade ($Q$) próximo de 0.707.
+
 
 
 
