@@ -84,6 +84,10 @@ A discretização dos componentes introduz alterações no comportamento do filt
 2. Impacto Prático: Como o capacitor real é maior que o ideal, e a frequência de corte é inversamente proporcional a $\sqrt{LC}$, a frequência de corte real do filtro deslocou-se ligeiramente para baixo (menor que 2000 Hz).
 3. Audibilidade: Em um ambiente de áudio real, um desvio de 6% na frequência de corte (caindo para aproximadamente 1.9 kHz) dificilmente seria audível para o ouvido humano destreinado, mantendo a integridade do sistema. A transição continua suave, sem picos de ressonância perigosos, pois os valores estão próximos o suficiente para manter o fator de qualidade ($Q$) próximo de 0.707.
 
+## 8. Conclusões
+O projeto atingiu com êxito os objetivos propostos. Foi possível projetar um crossover funcional utilizando ferramentas computacionais.
+
+O maior desafio enfrentado no projeto de filtros passivos não é o cálculo matemático, que é determinístico, mas sim a limitação física dos componentes comerciais. A engenharia lida frequentemente com o "trade-off" entre o ideal teórico e o disponível prático. Embora os valores exatos não existam no mercado, a simulação demonstrou que a aproximação pelos valores padrão (E12/E24) oferece uma performance satisfatória para a aplicação de áudio proposta.
 
 
 
