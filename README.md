@@ -69,4 +69,5 @@ Com base na impedância de 6 Ohms e frequência de corte de 2000 Hz, o software 
 ### Indutor(L)
 **Valor Ideal Calculado**: $0.6752 \ \text{mH}$
 **Valor Comercial Selecionado**: $0.68 \ \text{mH}$
-**Erro Aproximado**: $+0.7\%$
+**Erro Aproximado**: $+0.7\$%
+
