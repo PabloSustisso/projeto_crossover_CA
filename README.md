@@ -62,3 +62,10 @@ O script foi desenvolvido em **Python** utilizando as bibliotecas `numpy` (cálc
 É necessário ter o Python instalado e as seguintes bibliotecas:
 ```bash
 pip install numpy matplotlib
+```
+
+## 6. Análise dos Resultados
+Com base na impedância de 6 Ohms e frequência de corte de 2000 Hz, o software obteve os seguintes resultados:
+### Indutor(L)
+**Valor ideal calculado**: $0.6752 \, \text{mH}$
+
